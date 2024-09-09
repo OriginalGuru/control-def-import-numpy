@@ -117,3 +117,27 @@ To create a table in markdown, you can use `|` to separate columns, and `-` to c
 | polar vector | 1        |           |          |          |                |
 | axial vector | 1        |           |          |          |                |
 
+Are any of these operators redundant?
+
+### For those interested: Space-Time extension
+
+This concept can be extended to space-time by adding an additonal operation `time-reversal` and treating every object as being a 4-vector where the first element is `c*t`. Then there are five new operators:
+
+- identity + time-reversal
+- inversion + time-reversal
+- mirror_z + time-reversal
+- mirror_y + time-reversal
+- rotation_x_180 + time-reversal
+
+and the objects become
+
+- time-even scalar
+- time-even pseudoscalar
+- time-even polar-vector
+- time-even axial vector
+- time-odd scalar
+- time-odd pseudoscalar
+- time-odd polar-vector
+- time-odd axial vector
+
+If you'd like to learn more about the application of this approach to condensed matter physics, have a look in this [recent paper by Jiri Hlinka](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.165502)
