@@ -101,7 +101,6 @@ inversion = np.array(
                ,[ 0,  0, -1]]
 )
 ```
-- inversion: takes (x,y,z) --> (-x,-y,-z)
 - mirror_z: a mirror in the xy-plane
 - mirror_y: a mirror in the yz-plane
 - rotation_x_180: a 180 degree rotation about the x-axis
