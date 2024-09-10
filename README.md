@@ -31,7 +31,7 @@ If you need more help understanding the topics covered in these notebooks, feel 
 For this week's assignment, we are going to explore how different objects behave under different symmetry operations.
 
 ### Objective
-By the end of this assignment, you should have a clear understanding of how different symmetry operations affect physical quantities such as scalars, vectors, and pseudoscalars, and an approach to  implementing these operations using Python and numpy.
+By the end of this assignment, you should have a clear understanding of how different symmetry operations affect physical quantities such as scalars, vectors, and pseudoscalars, and an approach to implementing these operations using Python and numpy.
 
 ### Symmetry
 
@@ -118,6 +118,15 @@ To create a table in markdown, you can use `|` to separate columns, and `-` to c
 | axial vector | 1        |           |          |          |                |
 
 Are any of these operators redundant?
+
+If the system has these symmetries, The energy must be even under all of these symmetries. Assume that we have the following assignmnet:
+
+Q_1 : scalar
+Q_2 : pseudoscalar
+Q_3 : polar vector
+Q_3 = axial vector
+
+Notice that the square of any of these terms, i.e. Q_i^2, is even under all of the symmetry operations. This is a generalization of the multiplication rules "even times even is even" and "odd times odd is even" for each symmetry. You can think about this as a sping-mass system where the energy stored in the spring is 1/2 k x^2. Each Q_i is the coordinate of a mass, and 1/2 k is whatever the coefficient of that is that gives us units of energy. Are any terms Q_i * Q_j possible? Why or why not? What about Q_i * Q_j * Q_k? These terms, if the exists, tell us how these "springs" can be coupled to each other.
 
 ### For those interested: Space-Time extension
 
