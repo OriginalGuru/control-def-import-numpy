@@ -149,4 +149,6 @@ and the objects become
 - time-odd polar-vector
 - time-odd axial vector
 
+Are there new Q_i * Q_j * Q_k terms allowed now? Are there patterns that you notice?
+
 If you'd like to learn more about the application of this approach to condensed matter physics, have a look in this [recent paper by Jiri Hlinka](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.165502)
